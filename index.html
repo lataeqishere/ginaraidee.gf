@@ -1,19 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GinAraiDee</title>
-    <link rel="stylesheet" href="style.css"/>
-    <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@300&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <title>GinAraiDee</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@300&display=swap" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
 </head>
 <body>
-    <div class="buttons">
-        <div class="container">
-            <h1>กินอะไรดี ?</h1>
-            <p>สุ่มแล้วไม่กินขอให้ขี้แตก</p>
-            <a href="https://www.instagram.com/lataeq/" class="btn effect04" data-sm-link-text="ขี้" target="_blank"><span>สุ่ม</span></a>
-        </div>
+  <div class="container">
+    <div class="text-container">
+      <h1 id="text-container">กินอะไรดี ?</h1>
+      <p>ไม่กินขอให้ขี้แตก 😠</p>
     </div>
+    <button aria-label="heart" data-ico="❤️" style="--hue: 344deg" onclick="generateRandomText()"></button>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>
